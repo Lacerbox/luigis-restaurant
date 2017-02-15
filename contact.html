@@ -4,22 +4,13 @@
   	<meta name="description" content="italian restaurant">
   	<meta name="keywords" content="luigis, italian, food, dinners, sandwiches">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<title>Luigi's Restaurant of Fresno</title>
+  	<title>Contact Us</title>
   	<link rel="stylesheet" href="css/bootstrap.min.css">
   	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
   	<link rel="stylesheet" href="css/font-awesome.min.css">
   	<link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/contact.css">
   	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
-  <script language="JavaScript">
-  function submitForm()
-  {
-     alert("If we really existed, we'd send you some food. Go ahead and drop us a line anyway, but be nice or you'll be getting a visit from my uncle Vito and his nephew's Tiny and Rocco! This is where you click the OK button below, or else!");
-     return true
-  }
-  </script>
-
   </head>
 
   <body background="img/luigis_main_bg.jpg">
@@ -36,7 +27,7 @@
 	        <li><a href="index.html">Home</a></li>
 					<li><a href="menu.html">Menu</a></li>
 					<li><a href="memories.html">Memories</a></li>
-		      <li><a href="http://history.luigisrestaurant.net/" target="_blank">About Us</a></li>
+		      <li><a href="about.html">About Us</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
 		  </div>
@@ -67,7 +58,9 @@
   							<label for="exampleInputPassword1">Message: <span>*</span></label>
   								<textarea class="form-control" rows="3"></textarea>
   						</div>
-  					  <button type="submit" class="btn btn-default center-block" id="button">Send Message</button>
+              <div class="popup button button1" id="button" onclick="ContactMessage()">Send Message
+                <span class="popuptext" id="myPopup">"If we really existed, we'd message you back and maybe even send you some food. Go ahead and drop us a line anyway, but be nice or you'll be getting a visit from my uncle Vito and his nephew's Tiny and Rocco! This is where you click the button again, or else!"</span>
+              </div>
   						<h3 class="center-text" id="contact-fine-print">All fields marked <span>*</span> are mandatory</h3>
   					</form>
 
@@ -77,6 +70,12 @@
       </div>
     </div>
     <!-- CONTACT FORM END -->
+
+    <!-- javascript	 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
 
   </body>
 </html>

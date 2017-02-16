@@ -7,18 +7,18 @@
 
 /* (not using because "<div align="center"><h4><h5><img src="img/luigis-logo.gif"></h5></h4>" works better */
 .hero {
-    height: 300px;
-    width: 100%;
-    background-image: url('../img/luigis-logo.gif');
-    background-repeat: no-repeat;
-    background-position: center;
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/luigis-logo.gif');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #hero-header {
-    text-align: center;
-    color: #fff;
-    font-size: 75px;
-    padding-top: 10%;
+  text-align: center;
+  color: #fff;
+  font-size: 75px;
+  padding-top: 10%;
 }
 
 /* END HERO SECTION */
@@ -37,7 +37,7 @@
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #fff;                            /* Keeps Menu Text White When Hovered Over */
-  background-color: rgba(155, 145, 43, .4);  /* For Transparent Gray Over Text When Hovered */
+  background-color: rgba(155, 145, 43, .5);  /* For Transparent Gray Over Text When Hovered */
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -46,9 +46,23 @@
 }
 
 .luigi {
-    text-align: center;
-    font-family: "nadianne";
-    font-size: 12pt; color: #335752}
+  text-align: center;
+  font-family: "nadianne";
+  font-size: 12pt; color: #335752}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Lobster Two', 'Bad Script', cursive; /* FOR 1944-1993 */
+  font-weight: normal;
+  color: #335752;
+  font-size: 16pt;
+  margin-top: -15px; /* for height */
+  margin-bottom: 30px;
+}
 
 h2 {
   font-family: 'Bad Script', 'Lobster Two', cursive; /* FOR LUIGI'S (UPPER LEFT) */
@@ -82,14 +96,31 @@ h5 {
   padding: 0 0 0 0px;
 }
 
-/* Gets rid of underline on 'Return Home' */
+h6 {
+  font-family: 'Bad Script', 'Lobster Two', cursive; /* FOR 'Luigi's Menu' LINK */
+  font-weight: bold;
+  color: #335752;
+  font-size: 18pt;
+  margin-top: 40px; /* for height */
+  margin-bottom: -10px;
+}
+
+/* Gets rid of underline on links */
 a {
   text-decoration: none;
+}
+
+a:hover,
+.a:hover {
+   text-decoration: none !important;
 }
 
 #about-paragraph {
   padding: 0 29px;
   text-align: justify;
+  font-family: "verdana";
+  font-size: 12pt;
+  color: #335752
 }
 
 /* For Font Family Style */
@@ -100,9 +131,9 @@ p.sansserif {
 body {
   font-family: arial, helvetica, sans-serif;
   color: #335752;
-  background-repeat: repeat
+  background-repeat: repeat;
 }
   a:link    { color: #335752 }
   a:visited { color: #335752 }
-  a:hover   { color: #8bbaba }
-  a:active  { color: #54928b }
+  a:hover   { color: #74aa90 }
+  a:active  { color: #74aa90 }

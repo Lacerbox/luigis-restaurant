@@ -1,4 +1,6 @@
 /* FOR IMPORTING FONTS */
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Lobster+Two:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
 
 /* UNIVERSALS */
@@ -36,9 +38,13 @@ h1 {
 /* SLIDESHOW SECTION */
 img {
   position: absolute;
+  display: block;
+  margin: auto;
   /*margin-left: 18.2%;
   margin-right: 18.2%;*/
   transition: opacity .9s ease-in;
 }
 
-img + img { opacity: 0; }
+img + img {
+  opacity: 0;
+}

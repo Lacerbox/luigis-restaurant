@@ -1,3 +1,4 @@
+// FOR SLIDE SHOW IN MEMORIES.HTML
 var current = 0,
     slides = document.getElementsByTagName("img");
 
@@ -7,4 +8,4 @@ setInterval(function() {
   }
   current = (current != slides.length - 1) ? current + 1 : 0;
   slides[current].style.opacity = 1;
-}, 7000);
+}, 7000); // FOR IMAGE CHANGE EVERY 7 SECONDS

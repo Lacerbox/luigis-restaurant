@@ -5,13 +5,19 @@
 
 /* UNIVERSALS */
 
+/* Gets rid of underline on links */
 a {
-  text-decoration: none; /* Gets rid of underline */
+  text-decoration: none;
+}
+
+a:hover,
+.a:hover {
+  text-decoration: none !important;
 }
 
 li {
-    list-style-type: none; /* gets rid of bullets */
-    display: inline;
+  list-style-type: none; /* gets rid of bullets */
+  display: inline;
 }
 
 /* NAVBAR SECTION BEGIN */
@@ -47,15 +53,15 @@ li {
   background-position: center;
 }
 
-#wood-background {
+#luigis-banner-1 {
   background-image: url('../img/luigis-banner-1.jpg');
 }
 
-#restaurant-background {
+#luigis-banner-2 {
   background-image: url('../img/luigis-banner-2.jpg');
 }
 
-#farm-background {
+#luigis-banner-3 {
   background-image: url('../img/luigis-banner-3.jpg');
 }
 
@@ -69,40 +75,37 @@ li {
 /* CAROUSEL SECTION END */
 
 #main-paragraph {
-    padding: 0 350px;
-    text-align: justify;
-    /* font-family: 'Lato', sans-serif; /* ADDED LATO FOR ALL #main-paragraph
-    font-weight: 900;
-    font-family: 'Lobster', cursive;*/
+  padding: 0 350px;
+  text-align: justify;
+  /*font-weight: 900;
+  font-family: 'Lobster', cursive;*/
 }
 
 .split-para {
-    display:block;
-    margin:10px;
+  display:block;
+  margin:10px;
 }
 
 .split-para span {
-    display:block;
-    float:right;
-    width:50%;
-    margin-left:10px;
+  display:block;
+  float:right;
+  width:50%;
+  margin-left:10px;
 }
 
 .menu {
   padding: 0 350px;
   text-align: justify;
-    font-family: "verdana"; /* FOR MENU ITEMS */
-    color: #26403d;
+  font-family: "verdana"; /* FOR MENU ITEMS */
+  color: #26403d;
 }
 
 #menu-items {
-    float: left;
-    text-align: justify;
-    font-family: "verdana"; /* FOR MENU ITEMS */
-    color: #335752;
+  float: left;
+  text-align: justify;
+  font-family: "verdana"; /* FOR MENU ITEMS */
+  color: #335752;
 }
-
-
 
 #col-md-3-menu-items { /* FOR EMPTY SPACE AROUND MENU ITEMS */
   height: 150px;
@@ -122,10 +125,8 @@ li {
 h1 {
   font-family: 'Bad Script', 'Lobster Two', cursive; /* FOR BANNER */
   font-weight: normal;
-  color: #e00000; /*#800000*/
+  color: #e00000;
   font-size: 18pt;
-  /*font-size: 48pt;
-  margin-bottom: 125px; /* for height */
 }
 
 h2 {
@@ -137,42 +138,42 @@ h2 {
 }
 
 h3 {
-    text-align: center; /* FOR 'Specializing In European Cuisine' */
-    margin-top: 80px;
-    margin-bottom: -25px;
-    margin-left: -370px;
-    /*padding: 0 0 0 0px;*/
-    font-size: 18pt;
-    letter-spacing: 1.5pt;
-    font-weight: normal;
-    font-family: 'Lobster Two', 'Bad Script', cursive;
-    color: #800000;
+  text-align: center; /* FOR 'Specializing In European Cuisine' */
+  margin-top: 80px;
+  margin-bottom: -25px;
+  margin-left: -370px;
+  /*padding: 0 0 0 0px;*/
+  font-size: 18pt;
+  letter-spacing: 1.5pt;
+  font-weight: normal;
+  font-family: 'Lobster Two', 'Bad Script', cursive;
+  color: #800000;
 }
 
 h4 {
-    text-align: center; /* FOR 'Excellent Gourmet Food' */
-    margin-top: 35px;
-    margin-bottom: -25px;
-    margin-left: -370px;
-    /*padding: 0 0 0 0px;*/
-    font-size: 14pt;
-    letter-spacing: 1.5pt;
-    font-weight: bold;
-    font-family: 'Lobster Two', 'Bad Script', cursive;
-    color: #800000;
+  text-align: center; /* FOR 'Excellent Gourmet Food' */
+  margin-top: 35px;
+  margin-bottom: -25px;
+  margin-left: -370px;
+  /*padding: 0 0 0 0px;*/
+  font-size: 14pt;
+  letter-spacing: 1.5pt;
+  font-weight: bold;
+  font-family: 'Lobster Two', 'Bad Script', cursive;
+  color: #800000;
 }
 
 h5 {
-    text-align: center; /* FOR 'Phone & Email' */
-    margin-top: 35px;
-    margin-bottom: -25px;
-    margin-left: -370px;
-    /*padding: 0 0 0 0px;*/
-    font-size: 11pt;
-    letter-spacing: 1.5pt;
-    font-weight: normal;
-    font-family: "verdana";
-    color: #800000;
+  text-align: center; /* FOR 'Phone & Email' */
+  margin-top: 35px;
+  margin-bottom: -25px;
+  margin-left: -370px;
+  /*padding: 0 0 0 0px;*/
+  font-size: 11pt;
+  letter-spacing: 1.5pt;
+  font-weight: normal;
+  font-family: "verdana";
+  color: #800000;
 }
 
 h6 {
@@ -180,19 +181,19 @@ h6 {
 }
 
 .heading-1 {
-    margin-top: 55px; /* for heading 1 height */
+  margin-top: 55px; /* for heading 1 height */
 }
 
 .heading-2 {
-    margin-top: 55px; /* for heading 2 height */
+  margin-top: 55px; /* for heading 2 height */
 }
 
 .heading-3 {
-    margin-top: 55px; /* for heading 3 height */
+  margin-top: 55px; /* for heading 3 height */
 }
 
 .heading-4 {
-    margin-top: 55px; /* for heading 4 height */
+  margin-top: 55px; /* for heading 4 height */
 }
 
 .menu {
@@ -204,69 +205,70 @@ h6 {
 }
 
 c {
-     /* FOR THE WORD 'Special' IN RAVIOLI SECTION */
-    font-size: 18pt;
-    font-family: 'Bad Script', 'Lobster Two', cursive;
-    font-weight: bold;
-    color: #800000;
+   /* FOR THE WORD 'Special' IN RAVIOLI SECTION */
+  font-size: 18pt;
+  font-family: 'Bad Script', 'Lobster Two', cursive;
+  font-weight: bold;
+  color: #800000;
 }
+
 cc {
-     /* FOR 'Ravioli's are fresh frozen & come at one dozen per order' */
-    font-size: 12pt;    /* AFTER THE WORD 'Special' IN RAVIOLI SECTION */
-    font-family: "verdana";
-    font-weight: normal;
-    color: #800000;
+   /* FOR 'Ravioli's are fresh frozen & come at one dozen per order' */
+  font-size: 12pt;    /* AFTER THE WORD 'Special' IN RAVIOLI SECTION */
+  font-family: "verdana";
+  font-weight: normal;
+  color: #800000;
 }
 
 d {
-     /* FOR THE WORD 'Menu' AT BEGINNING OF MENU */
-    font-size: 28pt;
-    font-family: 'Bad Script', 'Lobster Two', cursive;
-    font-weight: bold;
-    color: #800000;
+   /* FOR THE WORD 'Menu' AT BEGINNING OF MENU */
+  font-size: 28pt;
+  font-family: 'Bad Script', 'Lobster Two', cursive;
+  font-weight: bold;
+  color: #800000;
 }
 
 e {
-    font-size: 16pt; /* FOR MENU HEADINGS */
-    font-family: 'Bad Script', 'Lobster Two', cursive;
-    font-weight: bold;
-    color: #800000;
+  font-size: 16pt; /* FOR MENU HEADINGS */
+  font-family: 'Bad Script', 'Lobster Two', cursive;
+  font-weight: bold;
+  color: #800000;
 }
 
 f {
-    margin-top: 0px; /* FOR MENU SUB-HEADINGS */
-    font-size: 11pt;
-    font-family: "verdana";
-    font-weight: normal;
-    font-style: italic;
-    color: #26403d;
+  margin-top: 0px; /* FOR MENU SUB-HEADINGS */
+  font-size: 11pt;
+  font-family: "verdana";
+  font-weight: normal;
+  font-style: italic;
+  color: #26403d;
 }
 
 /* TEXT FADE START */
 x {
-    font-weight: normal; /* without this font is bold */
-    font-family: "verdana";
-    font-size: 17px;        /* FOR 'How Our Famous Italian Steak Sandwich Came To Be' */
-    animation: change 3s infinite;
+  font-weight: normal; /* without this font is bold */
+  font-family: "verdana";
+  font-size: 17px;        /* FOR 'How Our Famous Italian Steak Sandwich Came To Be' */
+  animation: change 3s infinite;
 }
 
 y {
-    font-weight: normal; /* without this font is bold */
-    font-family: "verdana";
-    font-size: 18px;        /* FOR 'NEW' */
-    animation: change 1s infinite;
+  font-weight: normal; /* without this font is bold */
+  font-family: "verdana";
+  font-size: 18px;        /* FOR 'NEW' */
+  animation: change 1s infinite;
 }
 
 z {
-    font-weight: normal; /* without this font is bold */
-    font-family: "verdana";
-    font-size: 18px;        /* FOR 'Luigi's Original Homemade Meat & Cheese and Spinach & Cheese Ravioli' */
-    animation: change 4s infinite;
+  font-weight: normal; /* without this font is bold */
+  font-family: "verdana";
+  font-size: 18px;        /* FOR 'Luigi's Original Homemade Meat & Cheese and Spinach & Cheese Ravioli' */
+  animation: change 4s infinite;
 }
 
 @keyframes change {
-    from { color: #8b0000 }
-    to   { color: #ff3333 }
+  from { color: #8b0000 }
+  to   { color: #ff3333 }
 }
 /* TEXT FADE END */
 
